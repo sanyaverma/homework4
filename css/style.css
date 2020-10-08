@@ -157,7 +157,6 @@ header p{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  align-self: center;
   text-align: center;
   justify-self: center;
 
@@ -168,7 +167,7 @@ header p{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
-    text-align: left;
+    text-align: right;
     vertical-align: center;
   }
 
