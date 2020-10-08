@@ -157,8 +157,10 @@ header p{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  vertical-align: center;
-  text-align: center; 
+  align-self: center;
+  text-align: center;
+  justify-self: center;
+
 
 }
 
