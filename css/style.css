@@ -179,16 +179,38 @@ header p{
     grid-gap: 15px;
   }
 
-  .about, .clients, .method-image, .contact-image{
+  .about {
     /*Your code here:*/
     grid-column: 3 / span 2;  
   }
+  .clients {
+    grid-column: 3 / span 2;  
+  }
 
-  .about-image, .clients-image, .method, .contact{
-    /*Your code here:*/
+  .method-image{
+    grid-column: 3 / span 2;  
+  }
+  
+  .contact-image {
+    grid-column: 3 / span 2;  
+  }
+
+  .about-image {
     grid-column: 2 / span 2;  
   }
-}
+  
+  .clients-image{
+    grid-column: 2 / span 2;    
+  }
+  
+  .method {
+    grid-column: 2/span 2;  
+  }
+  
+  .contact{
+    /*Your code here:*/
+    grid-column: 2/span 2; 
+  }
 
 /*You do not need to modify any code below this line.
 It is included for accessibility to turn off animations
