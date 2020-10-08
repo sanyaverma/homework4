@@ -36,6 +36,15 @@ nav a{
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
+nav a:hover {
+  text-decoration: underline;
+    text-decoration-color: black;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
 
 
 .skip a{
@@ -45,8 +54,14 @@ links in the navigation are in the hover or focus state.*/
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-
   /*Your code here*/
+  display: none;
+  position: absolute;
+  top: -40px;
+}
+
+.skip{
+  position: relative;
 }
 
 /*Your Code Here*/
@@ -54,6 +69,10 @@ links in the navigation are in the hover or focus state.*/
 
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
+.skip a:focus{
+  position: inherit;
+  border: 2px solid;
+}
 
 
 nav{
@@ -144,6 +163,7 @@ background-color: rgba(255, 255, 255, .8);
   nav{
     padding: 30px 0px;
     /*Your code here:*/
+    text-align: right;
   }
 
   .container{
