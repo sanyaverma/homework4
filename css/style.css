@@ -39,11 +39,6 @@ links in the navigation are in the hover or focus state.*/
 nav a:hover {
   text-decoration: underline;
   text-decoration-color: black;
-  -o-transition:.4s;
-  -ms-transition:.4s;
-  -moz-transition:.4s;
-  -webkit-transition:.4s;
-  transition:.4s;
 }
 
 
@@ -78,7 +73,7 @@ nav{
 footer{
   background-color: black;
   color: white;
-  padding-top: 30px;
+  padding-top: 30px
   text-align: center;
 }
 
